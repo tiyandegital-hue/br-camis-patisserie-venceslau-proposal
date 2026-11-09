@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Encomendas — CAMIS Patisserie | Monte seu pedido</title>
+<meta name="description" content="Encomende na CAMIS Patisserie: escolha a ocasião, monte sua mensagem e envie no Instagram @patisseriecamis. Bolos autorais e cookies artesanais em Presidente Venceslau – SP.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site">
+  <nav class="nav" aria-label="Navegação principal">
+    <a class="brand" href="index.html"><span data-site="wordmark">CAMIS</span><small>PATISSERIE</small></a>
+    <button class="burger" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cardapio.html">Cardápio</a></li>
+      <li><a href="ensaio.html">Ensaio IA</a></li>
+      <li><a href="conteudo.html">Conteúdo</a></li>
+      <li><a href="encomendas.html" class="active" aria-current="page">Encomendas</a></li>
+      <li><a href="historia.html">História</a></li>
+      <li><a class="btn btn-primary nav-cta mobile" href="https://www.instagram.com/patisseriecamis/" target="_blank" rel="noopener">Encomendar no Instagram</a></li>
+    </ul>
+    <a class="btn btn-primary nav-cta" href="https://www.instagram.com/patisseriecamis/" target="_blank" rel="noopener">Encomendar no Instagram</a>
+  </nav>
+</header>
+
+<main>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>FORNADAS SOB ENCOMENDA <b>✦</b> CHOCOLATE BELGA CALLEBAUT <b>✦</b> ATELIÊ EM PRESIDENTE VENCESLAU – SP <b>✦</b> EMBALAGENS DE AFETO PRONTAS PARA PRESENTE <b>✦</b>&nbsp;</span>
+      <span>FORNADAS SOB ENCOMENDA <b>✦</b> CHOCOLATE BELGA CALLEBAUT <b>✦</b> ATELIÊ EM PRESIDENTE VENCESLAU – SP <b>✦</b> EMBALAGENS DE AFETO PRONTAS PARA PRESENTE <b>✦</b>&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section>
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Ateliê &amp; confeitaria sob medida</p>
+        <h2>Encomende seu momento doce</h2>
+        <p class="lede">Cada bolo e caixa de cookies é preparado artesanalmente para celebrar quem você ama. Monte sua mensagem abaixo e envie direto no Instagram — sem checkout complicado: a Camila atende você pessoalmente.</p>
+        <div class="hero-ctas" style="margin-top:24px">
+          <a class="btn btn-primary" href="#simulador">Montar mensagem de pedido</a>
+          <a class="btn btn-ghost" href="https://www.instagram.com/patisseriecamis/" target="_blank" rel="noopener">@patisseriecamis</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/img/bolo-autoral.jpg" alt="Bolo autoral de celebração pronto para encomenda — amostra gerada por IA" loading="lazy">
+        <div class="caption-card">
+          <h3>Bolo autoral de celebração</h3>
+          <p>Feito sob encomenda, para o seu momento especial.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="dark" style="padding-top:64px">
+    <div class="wrap">
+      <p class="eyebrow light">Jornada clara e tranquila</p>
+      <h2>Como funciona a sua encomenda</h2>
+      <p class="lede">Aconselhamos consultar as datas com antecedência para assegurar seu espaço na fornada semanal.</p>
+      <div class="steps" style="margin-top:32px">
+        <article class="step">
+          <div class="num">1</div>
+          <h3>Escolha a ocasião</h3>
+          <p>Bolo comemorativo, caixa especial de cookies ou sobremesas para a mesa — opções individuais e para a família.</p>
+        </article>
+        <article class="step">
+          <div class="num">2</div>
+          <h3>Data &amp; detalhes</h3>
+          <p>Defina a data da comemoração, a mensagem do cartão de afeto e suas preferências de sabor.</p>
+        </article>
+        <article class="step">
+          <div class="num">3</div>
+          <h3>Instagram DM oficial</h3>
+          <p>Envie sua mensagem pronta para o perfil <strong>@patisseriecamis</strong>. Combinamos os detalhes e o horário de retirada no ateliê em Presidente Venceslau.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER SIMULATOR -->
+  <section id="simulador">
+    <div class="wrap">
+      <p class="eyebrow">Simulador sob medida</p>
+      <h2>Monte seu pedido com carinho</h2>
+      <p class="lede">Selecione a ocasião, personalize os dados e copie — ou envie — a mensagem montada para a Camila. Demonstração: nenhum pedido é registrado neste site; a mensagem vai para o Instagram.</p>
+
+      <form id="order-form" style="margin-top:32px">
+        <div class="occasions" role="group" aria-label="Escolha a ocasião">
+          <button type="button" class="occasion selected" data-occasion="Aniversário" aria-pressed="true">
+            <b>🎂 Aniversário</b>
+            <small>Bolos autorais, velinhas e mensagem afetiva.</small>
+          </button>
+          <button type="button" class="occasion" data-occasion="Presente" aria-pressed="false">
+            <b>🎁 Presente</b>
+            <small>Caixas de cookies artesanais com laço de cetim.</small>
+          </button>
+          <button type="button" class="occasion" data-occasion="Casamento" aria-pressed="false">
+            <b>💍 Casamento</b>
+            <small>Bolos elegantes e doces finos com acabamento impecável.</small>
+          </button>
+          <button type="button" class="occasion" data-occasion="Evento corporativo" aria-pressed="false">
+            <b>🏢 Evento corporativo</b>
+            <small>Kits para pausas de café e presentes de equipe.</small>
+          </button>
+        </div>
+
+        <div class="form-grid">
+          <div class="field">
+            <label for="f-date">Data prevista para retirada</label>
+            <input type="text" id="f-date" placeholder="Ex.: sábado, 15 de novembro">
+          </div>
+          <div class="field">
+            <label for="f-size">Tamanho / pessoas / formato</label>
+            <input type="text" id="f-size" placeholder="Ex.: bolo para cerca de 15 pessoas">
+          </div>
+          <div class="field">
+            <label for="f-name">Seu nome / homenageado(a)</label>
+            <input type="text" id="f-name" placeholder="Ex.: Maria — aniversário da Ana">
+          </div>
+          <div class="field">
+            <label for="f-notes">Preferências de sabor ou observações</label>
+            <input type="text" id="f-notes" placeholder="Ex.: frutas frescas, ganache de chocolate belga">
+          </div>
+        </div>
+
+        <div class="preview">
+          <h3>Prévia da mensagem <span style="font-size:.8rem;font-weight:400;opacity:.8">— pronta para o Direct</span></h3>
+          <pre id="msg-preview">Olá, Camila! Tudo bem?
+Gostaria de verificar a disponibilidade de uma encomenda na CAMIS Patisserie:
+
+• Ocasião: Aniversário
+
+Pode me confirmar disponibilidade e valores? Obrigada!</pre>
+          <div class="preview-actions">
+            <button type="submit" class="btn btn-primary">Enviar pedido via Instagram DM (@patisseriecamis)</button>
+            <button type="button" class="btn btn-light" id="copy-msg">Copiar texto da mensagem</button>
+          </div>
+          <p style="margin-top:14px;font-size:.9rem;opacity:.85">Sem checkout complexo: a Camila atende você com total atenção, pessoalmente, no Instagram.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- INFO + FAQ -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <p class="eyebrow">Transparência &amp; qualidade</p>
+      <h2>Informações importantes do ateliê</h2>
+      <div class="info-cards" style="margin-top:32px">
+        <div class="info-card">
+          <h3>⏰ Antecedência recomendada</h3>
+          <p>Consulte a disponibilidade via Instagram com antecedência para garantir vaga na fornada. <span class="ph">[Prazo mínimo — confirmar com Camila]</span></p>
+        </div>
+        <div class="info-card">
+          <h3>🍫 Ingredientes nobres</h3>
+          <p>Trabalhamos com chocolate belga Callebaut autêntico e ingredientes selecionados.</p>
+        </div>
+        <div class="info-card">
+          <h3>🛍️ Retirada agendada</h3>
+          <p>A retirada é combinada com horário marcado no ateliê em Presidente Venceslau – SP.</p>
+        </div>
+        <div class="info-card">
+          <h3>💬 WhatsApp</h3>
+          <p><span class="ph">[WhatsApp — número não confirmado; consulte o perfil @patisseriecamis]</span></p>
+        </div>
+      </div>
+
+      <div class="faq" style="margin-top:44px">
+        <h2 style="font-size:1.6rem;margin-bottom:20px">Perguntas frequentes</h2>
+        <details>
+          <summary>Quanto tempo antes devo encomendar?</summary>
+          <p><span class="ph">[Prazo mínimo de antecedência — confirmar com Camila]</span> Recomendamos consultar a agenda com antecedência, principalmente para fins de semana e festas.</p>
+        </details>
+        <details>
+          <summary>Como pago minha encomenda?</summary>
+          <p><span class="ph">[Formas de pagamento — confirmar com Camila]</span> O pagamento é combinado diretamente com a Camila no Instagram.</p>
+        </details>
+        <details>
+          <summary>Vocês entregam ou só retirada?</summary>
+          <p>A retirada é feita no ateliê em Presidente Venceslau – SP, com horário marcado. <span class="ph">[Entrega — confirmar disponibilidade]</span></p>
+        </details>
+        <details>
+          <summary>Posso escolher os sabores do bolo?</summary>
+          <p>Sim — sabores, tamanhos e personalização são combinados com a Camila no Direct. <span class="ph">[Lista de sabores — confirmar]</span></p>
+        </details>
+      </div>
+
+      <div style="text-align:center;margin-top:48px">
+        <h2>Vamos criar uma celebração inesquecível juntos?</h2>
+        <p class="lede" style="margin:0 auto">Tire suas dúvidas sobre sabores, tamanhos personalizados e embalagens para presente diretamente com a Camila.</p>
+        <div class="hero-ctas" style="justify-content:center;margin-top:24px">
+          <a class="btn btn-primary" href="https://www.instagram.com/patisseriecamis/" target="_blank" rel="noopener">Falar no Instagram DM</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h3><span data-site="wordmark">CAMIS</span> Patisserie</h3>
+        <p>Café, afeto e confeitaria artesanal em Presidente Venceslau – SP. Aberto em dezembro de 2025.</p>
+        <p style="margin-top:12px"><a href="https://www.instagram.com/patisseriecamis/" target="_blank" rel="noopener">↗ @patisseriecamis</a></p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li><a href="ensaio.html">Ensaio IA</a></li>
+          <li><a href="conteudo.html">Conteúdo</a></li>
+          <li><a href="encomendas.html">Encomendas</a></li>
+          <li><a href="historia.html">Nossa História</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reconhecimento</h4>
+        <p>Destaque no Portal Proezas (setembro de 2026).</p>
+        <p style="margin-top:12px"><a href="https://www.portalproezas.com.br/camis-patisserie-o-toque-autoral-de-camila-coelho-reune-arte-e-sabor-afetivo" target="_blank" rel="noopener">Ler a matéria ↗</a></p>
+        <h4 style="margin-top:24px">Localização &amp; afeto</h4>
+        <p>Presidente Venceslau – SP, Brasil</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span data-site-year>2026</span> <span data-site="businessName">CAMIS Patisserie</span>. Todos os direitos reservados.</span>
+      <span>Site conceito feito para CAMIS Patisserie por Tiyan Degital.</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
